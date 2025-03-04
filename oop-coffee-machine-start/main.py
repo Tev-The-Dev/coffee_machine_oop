@@ -19,6 +19,7 @@ while making_coffee:
             if maintain == "report":
                 coffee_maker.report()
                 money_machine.report()
+            #TODO: Optional - Add a refill functionality to allow the maintenance team to refill resources
             else:
                 print("Going back to regular usage")
                 in_maintenance_mode = False
